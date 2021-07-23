@@ -49,5 +49,70 @@ public class company {
         this.year = year;
     }
 
+    //setter and getter
+    //orders
+    public void setOrders(int orders){
+        this.orders = orders;
+    }
 
+    public int getOrders() {
+        return orders;
+    }
+
+    //rank
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
+
+    public int getRank() {
+        return rank;
+    }
+
+    //name of company
+    public void setCompanyName(String companyName){
+        this.companyName =companyName;
+    }
+
+    public String getCompanyName() {
+        return companyName;
+    }
+
+    //revenue
+    public void setRevenue(double revenue) {
+        this.revenue = revenue;
+    }
+
+    public double getRevenue() {
+        return revenue;
+    }
+
+    //profit
+    public void setProfit(double profit) {
+        this.profit = profit;
+    }
+
+    public double getProfit() {
+        return profit;
+    }
+
+    //year
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    @Override
+    public String toString() {
+        return "company{" +
+                "orders=" + orders +
+                ", rank=" + rank +
+                ", companyName='" + companyName + '\'' +
+                ", revenue=" + revenue +
+                ", profit=" + profit +
+                ", year=" + year +
+                '}';
+    }
 }
