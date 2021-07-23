@@ -35,10 +35,12 @@ public class company {
     @Column(name = "year") //This will map the year field to the column named year in the table.
     private int year;
 
+    //default constructor
     public company(){
 
     }
 
+    //para constructor
     public company(int rank, String name, double revenue, double profit, int year){
         this.rank = rank;
         this.companyName = name;
