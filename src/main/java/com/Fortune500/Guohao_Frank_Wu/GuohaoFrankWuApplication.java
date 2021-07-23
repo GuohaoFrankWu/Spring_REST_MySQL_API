@@ -6,6 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class GuohaoFrankWuApplication {
 
+	public GuohaoFrankWuApplication(){
+
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(GuohaoFrankWuApplication.class, args);
 	}

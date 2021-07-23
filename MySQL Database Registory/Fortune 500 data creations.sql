@@ -16,5 +16,6 @@ CREATE TABLE `company` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 INSERT INTO `company` values
-(0, 0, 'Pyramid Consulting', 4.6, 1.1, 2020);
+(0, 0, 'Pyramid Consulting', 4.6, 1.1, 2020),
+(8, 2, 'Delta Airline', 5.5, 2.2, 2021)
 

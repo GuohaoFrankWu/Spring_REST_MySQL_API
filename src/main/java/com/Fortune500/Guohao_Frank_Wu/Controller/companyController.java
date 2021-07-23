@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 //This is to allow calls from React... NOT IMPORTANT RIGHT NOW
-@CrossOrigin(origins = { "http://localhost:3000"})
+@CrossOrigin(origins = { "http://localhost:3007"})
 @RestController
 public class companyController {
     private final companyService service;

@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import java.util.List;
 
+@Repository
 public class companyIMPL implements companyDAO{
 
     //Define field for entity manager
