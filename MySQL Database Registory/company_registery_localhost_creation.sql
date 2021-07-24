@@ -1,6 +1,6 @@
-CREATE USER 'Fortune500'@'localhost' IDENTIFIED BY 'Fortune500';
+CREATE USER 'companyRegistry'@'localhost' IDENTIFIED BY 'companyRegistry';
 
-GRANT ALL PRIVILEGES ON * . * TO 'Fortune500'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'companyRegistry'@'localhost';
 #
 # Starting with MySQL 8.0.4, the MySQL team changed the 
 # default authentication plugin for MySQL server 
@@ -11,4 +11,4 @@ GRANT ALL PRIVILEGES ON * . * TO 'Fortune500'@'localhost';
 # See the MySQL Reference Manual for details: 
 # https://dev.mysql.com/doc/refman/8.0/en/caching-sha2-pluggable-authentication.html
 #
-ALTER USER 'Fortune500'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';
+ALTER USER 'companyRegistry'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';
