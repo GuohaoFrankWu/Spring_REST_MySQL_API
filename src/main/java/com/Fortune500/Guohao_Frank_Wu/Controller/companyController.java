@@ -53,7 +53,7 @@ public class companyController {
     }
 
     //This is a DELETE request to delete an existing employee.
-    //http://localhost:8080/deleteEmployee/1
+    //http://localhost:8080/deleteCompany/1
     @DeleteMapping("/deleteCompany/{companyId}")
     public String deleteCompany(@PathVariable int companyId) {
         //This will execute the deleteByID.
